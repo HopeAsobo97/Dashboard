@@ -1,0 +1,19 @@
+@media screen and (max-width: 934px) {
+    .hide{
+        width: 45%;
+    }
+    
+    .header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 897px) {
+    .hide{
+        display: none;
+    }
+
+    .account-info{
+        width: 80%;
+    }
+}
