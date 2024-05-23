@@ -13,7 +13,9 @@
         display: none;
     }
 
-    .account-info{
-        width: 80%;
+    .header{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
 }

@@ -13,7 +13,7 @@ const Head = () => {
         <input type="search" placeholder="Search for a student, lecturer or course" className="border-slate-400 z-0 px-2 rounded-lg w-[350px] h-3 block py-[20px] text-sm border outline-1 outline-slate-500" name="" id="" />
         <Search style={{"fontSize":"24px"}} className="text-slate-400 absolute right-4"/>
       </Grid>
-      <Grid display={'flex'} className="gap-5 account-info" alignItems={'center'} item>
+      <Grid display={'flex'} className="gap-5 accountInfo" alignItems={'center'} item>
         <Button style={{'border':"1px solid black",'color':'black'}} variant="outlined" className="w-[25px] h-[30px]">En <ExpandMoreOutlined /></Button>
         <Badge color="error" badgeContent=" " variant="dot">
             <NotificationsOutlined />
